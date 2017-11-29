@@ -35,7 +35,7 @@ namespace DesktopApplication
         public void PriodicallyCall()
         {
             var startTimeSpan = TimeSpan.Zero;
-            var periodTimeSpan = TimeSpan.FromMinutes(1);
+            var periodTimeSpan = TimeSpan.FromMinutes(5);
 
             var timer = new System.Threading.Timer((e) =>
             {
